@@ -136,6 +136,8 @@ body{
     background-color: #f1f2f3;
     padding-top: 70px;
     padding-bottom: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
     display: block;
 }
 
@@ -221,4 +223,122 @@ iframe{
     object-fit: fill;
     border: 15px solid #28eea7;
     border-radius: 20px;
+}
+
+.milestones-section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: block;
+}
+
+.milestones-container{
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.mil-body{
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.mil-left{
+    background-color: #f1f2f3;
+    border-radius: 25px;
+    align-items: flex-start;
+    padding: 60px 70px;
+}
+
+.mil-left-title{
+    color: #363738;
+    text-align: left;
+    font-size: 120px;
+    font-weight: 900;
+}
+
+.mil-left-subtitle{
+    color: #363738;
+    text-align: left;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.mil-left-txt{
+    color: #363738;
+    align-self: stretch;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.mil-right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+.mil-right-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.mil-right-up-title{
+    color: #363738;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.mil-right-up-sub{
+    color: #363738;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.mil-right-up-1{
+    border-radius: 25px;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #f1f2f3;
+}
+
+.mil-right-up-2{
+    border-radius: 25px;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #f1f2f3;
+}
+
+
+.mil-right-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.mil-right-down-1{
+    border-radius: 25px;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #f1f2f3;
+}
+
+.mil-right-down-2{
+    border-radius: 25px;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #f1f2f3;
 }
