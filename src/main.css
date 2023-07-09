@@ -140,6 +140,7 @@ body{
     width: auto;
 }
 
+/* ----------------------------HELLO WORLD SECTION--------------------------------------- */
 .hello-world{
     background-color: #f1f2f3;
     padding-top: 70px;
@@ -232,7 +233,7 @@ iframe{
     border: 15px solid #28eea7;
     border-radius: 20px;
 }
-
+/* ----------------------------MILESTONES SECTION--------------------------------------- */
 .milestones-section{
     padding-top: 70px;
     padding-bottom: 70px;
@@ -355,6 +356,7 @@ iframe{
     width: 195px;
 }
 
+/* ----------------------------PROGRAMS SECTION--------------------------------------- */
 .program-section{
     background-color:#28eea7;
     padding: 70px 15%;
@@ -514,6 +516,7 @@ iframe{
     border-radius: 10px;
 }
 
+/* ----------------------------HIRE TALENT SECTION--------------------------------------- */
 .hire-section{
     background-color: #363738;
     padding: 70px 15%;
@@ -605,9 +608,6 @@ iframe{
     width: 100%;
 }
 
-.hire-body-down{
-}
-
 .hire-body-down-content{
     display: flex;
     flex-flow: row wrap;
@@ -641,7 +641,111 @@ iframe{
     vertical-align: middle;
     display: inline-block;
 }
+/* ----------------------------TESTIMONIALS SECTION--------------------------------------- */
+.test-section{
+    background-color: white;
+    padding: 70px 15%;
+}
 
+.test-container{
+    max-width: 1340px;
+    flex-direction: column;
+    display: flex;
+}
+
+.test-body{
+    height: 500px;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 50px;
+    display: flex;
+}
+
+.test-content{
+    background-color: #363738;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 20px 64px;
+    display: flex;
+    flex-flow: row ;
+}
+
+.test-body-left{
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 40px;
+    display: flex;
+}
+
+.test-body-left1{
+    margin-bottom: 24px;
+}
+
+.test-body-left1 img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.test-body-left2{
+    color: #fcfcfd;
+    margin-bottom: 32px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.test-body-left3{
+    align-items: center;
+    display: flex;
+}
+
+.test-body-left3 img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.test-body-left3-right{
+    grid-column-gap: 0px;
+    grid-row-gap: 8px;
+    color: #fcfcfd;
+    flex-direction: column;
+    font-weight: 900;
+    display: flex;
+}
+
+.test-body-left3-up{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.test-body-left3-up span{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.test-body-left3-down{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.test-body-left3-down span{
+    color: #28eea7;
+    font-weight: 900;
+}
+
+.test-content > img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* ----------------------------PARTNERS SECTION--------------------------------------- */
 .partner-section{
     padding: 70px 15%;
     display: block;
@@ -691,6 +795,7 @@ iframe{
     margin-right: 15px;
 }
 
+/* ----------------------------NEWS SECTION--------------------------------------- */
 .news-section{
     background-color: #363738;
     padding: 70px 15%;
@@ -763,6 +868,7 @@ iframe{
     outline: none;
 }
 
+/* ----------------------------FOOTER SECTION--------------------------------------- */
 footer{
     background-color: #232323;
     margin: 0;
