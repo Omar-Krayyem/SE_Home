@@ -514,6 +514,134 @@ iframe{
     border-radius: 10px;
 }
 
+.hire-section{
+    background-color: #363738;
+    padding: 70px 15%;
+}
+
+.hire-container{
+    max-width: 1340px;
+    flex-direction: column;
+    display: flex;
+}
+
+.hire-body-up-content{
+    margin-top: 50px;
+    column-gap: 20px;
+    row-gap: 20px;
+    row-gap: 24px;
+    column-gap: 24px;
+    background-color: #232323;
+    border-radius: 20px;
+    flex-direction: column;
+    flex: 1;
+    justify-content: flex-start;
+    align-self: stretch;
+    align-items: flex-start;
+    padding: 40px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.hire-body-up1{
+    color: #fcfcfd;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.4;
+}
+
+.hire-body-up2{
+    color: #fcfcfd;
+    text-align: left;
+    background-color: #363738;
+    padding: 15px 20px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.hire-body-up2 span{
+    color: #28eea7;
+    font-weight: 900;
+}
+
+.hire-body-up3{
+    color: #fcfcfd;
+    align-self: stretch;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.hire-body-up3 ol{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+.hire-body-up3 p{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.hire-body-up4{
+        width: 100%;
+        background-color: rgba(54, 55, 56, .75);
+        padding: 15px 20px;
+        max-width: 1200px;
+        display: flex;
+        flex-direction: row-reverse;
+}
+
+.hire-body-up4 a{
+    text-align: right;
+    text-decoration: none;
+    margin-top: auto;
+    color: #fcfcfd;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 800;
+    position: relative;
+    width: 100%;
+}
+
+.hire-body-down{
+}
+
+.hire-body-down-content{
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #232323;
+    flex: 1;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+.hire-body-down1{
+    color: #fcfcfd;
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.hire-body-down2{
+    color: #fcfcfd;
+    text-align: left;
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.hire-body-down img{
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
 .partner-section{
     padding: 70px 15%;
     display: block;
